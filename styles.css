@@ -89,7 +89,7 @@ li a{
    
 }
 .image-interactive-container{
-    width: 600px;
+    width: 330px;
      position: relative;
     
 }
@@ -411,7 +411,7 @@ main{
        display: none; 
     }
     .image-interactive-container{
-        width: 100%;
+        width: 600px;
     }
     .image-interactive{
         width: 100%;
