@@ -27,8 +27,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  
   /* left: 100px;
   right: 100px; */
   width: 100%;
@@ -58,18 +57,17 @@ li a {
 
 .immersive-exp {
   position: absolute;
-  top: 250px;
-  right: 100px;
-  left: 100px;
-  bottom: 100px;
-  height: 20px;
-  font-size: 20px;
+  bottom: 205px;
+  left: 10px;
+  font-size: 34px;
   border: 1px solid white;
-  padding-bottom: 100px;
-  padding-left: 10px;
+  padding-left: 16px;
   padding-right: 64px;
-  padding-top: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: white;
+  margin-left: 16px;
+  
 }
 .immersive-exp-desktop {
   position: absolute;
@@ -310,6 +308,7 @@ main {
   width: 150;
 }
 .img-arcade {
+
   width: 100%;
 }
 .footer-desktop {
@@ -410,6 +409,12 @@ main {
   .immersive-exp-desktop {
     display: none;
   }
+  .nav-bar{
+    padding-left: 16px;
+    padding-right: 32px ;
+    margin-left: 16px;
+   
+  }
 }
 
 @media (min-width: 601px) and (max-width: 2560px) {
@@ -445,5 +450,9 @@ main {
   }
   .image-hero {
     height: 600px;
+  }
+  .nav-bar{
+    padding-left: 100px;
+  padding-right: 100px;
   }
 }
